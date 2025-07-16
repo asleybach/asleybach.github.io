@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asley Bach - Sitio Personal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Language Buttons -->
+  <div class="lang-buttons">
+    <button class="btn btn-outline-primary btn-sm" onclick="setLang('es')">Español</button>
+    <button class="btn btn-outline-primary btn-sm" onclick="setLang('pt')">Português</button>
+    <button class="btn btn-outline-primary btn-sm" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <img src="assets/img/asley_bg_white.png" alt="Asley Bach" class="profile-pic">
+    <h1 id="title">Asley Bach Echarry</h1>
+    <p id="subtitle">Desarrollador Python | DevOps | Seguridad Informática</p>
+    <a href="assets/pdf/cv_asleybach.pdf" class="btn btn-light mt-3" download target="_blank" id="download_cv">Descargar CV</a>
+  </div>
+
+  <!-- Sobre mí -->
+  <div class="container mt-5">
+    <h2 class="text-center" id="about_title">Sobre mí</h2>
+    <p class="text-center" id="about_text">
+      Soy un profesional con experiencia en desarrollo de soluciones con Python, DevOps y análisis de seguridad. 
+      Me apasiona construir herramientas útiles, automatizar procesos y compartir conocimiento.
+    </p>
+  </div>
+
+  <!-- Certificaciones -->
+  <div class="container mt-5">
+    <h2 class="text-center" id="certs_title">Certificaciones</h2>
+    <ul class="list-group list-group-horizontal justify-content-center" id="certs_list">
+      <li class="list-group-item d-flex flex-column align-items-center">
+        <img src="assets/img/certs/cc-isc2.png" alt="ISC2 CC Badge" style="height:48px; margin-bottom:6px;" />
+        <a href="https://www.credly.com/badges/9ce47f63-f39f-4ae9-9814-95d95a48d568/linked_in_profile" target="_blank" rel="noopener noreferrer">
+          Certified in Cybersecurity (CC) – ISC2
+        </a>
+      </li>
+      <li class="list-group-item d-flex flex-column align-items-center">
+        <img src="assets/img/certs/azure-fundamentals.svg" alt="Microsoft Certified Fundamentals Badge" style="height:48px; margin-bottom:6px;" />
+        <a href="https://learn.microsoft.com/es-es/users/asleybachecharry-3307/credentials/1af684749fcd834c" target="_blank" rel="noopener noreferrer">
+          Microsoft Azure AI Fundamentals
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Proyectos -->
+  <div class="container mt-5">
+    <h2 class="text-center" id="projects_title">Proyectos destacados</h2>
+    <div class="row justify-content-center text-center" id="projects_row">
+
+      <!-- Proyecto 1 -->
+      <div class="col-md-4 d-flex align-items-stretch justify-content-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Finanzas IA</h5>
+            <p class="card-text" id="proj1_text">App de finanzas personales con backend FastAPI y balance automático.</p>
+            <a href="https://github.com/asleybach/project_one_back" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Proyecto 2 -->
+      <div class="col-md-4 d-flex align-items-stretch justify-content-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Odoo ↔ SAP Connector</h5>
+            <p class="card-text" id="proj2_text">Módulo que sincroniza pedidos entre Odoo y SAP con APIs REST.</p>
+            <a href="https://github.com/businessinsights-mx/fastapi-odoo-sap-connector" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      
+
+  <!-- Contacto -->
+  <div class="container text-center mb-5">
+    <h2 id="contact_title">Contacto</h2>
+    <div class="d-flex flex-column align-items-center gap-1">
+      <span>📧 <a href="mailto:asleybach@gmail.com">asleybach@gmail.com</a></span>
+      <span>💼 <a href="https://www.linkedin.com/in/asleybach/" target="_blank">LinkedIn</a></span>
+      <span>💻 <a href="https://github.com/asleybach" target="_blank">GitHub</a></span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p id="footer_text">© 2025 Asley Bach Echarry | Construido con Bootstrap & GitHub Pages</p>
+  </footer>
+
+
+  <!-- JavaScript para cambio de idioma -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
