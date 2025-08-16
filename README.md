@@ -29,3 +29,20 @@ Puedes verlo en línea 👉 **[asleybach.github.io](https://asleybach.github.io)
 
 ---
 
+## 👀 Vista previa local del sitio
+
+**Usar un servidor local con Python**
+
+Para simular el entorno de producción y ver tu sitio antes de subir cambios, puedes iniciar un servidor local ejecutando el siguiente comando en la raíz del proyecto:
+
+```bash
+python3 -m http.server 8000
+```
+
+Luego abre tu navegador y visita:
+[http://localhost:8000](http://localhost:8000)
+
+Esto te permitirá revisar el sitio tal como se verá en línea antes de hacer commit o publicar.
+
+---
+
