@@ -4,6 +4,8 @@ const translations = {
     download_cv: "Descargar CV",
     about_title: "Sobre mí",
     about_text: "Soy un profesional con experiencia en desarrollo de soluciones con Python, DevOps y análisis de seguridad. Me apasiona construir herramientas útiles, automatizar procesos y compartir conocimiento.",
+    studies_title: "Estudios Realizados",
+    studies_text: "Magíster en Informática Educativa",
     certs_title: "Certificaciones",
     certs_list: `
       <li class='list-group-item d-flex flex-column align-items-center'>
@@ -33,6 +35,8 @@ const translations = {
     download_cv: "Download CV",
     about_title: "About Me",
     about_text: "I'm a professional with experience in developing solutions with Python, DevOps, and security analysis. I am passionate about building useful tools, automating processes, and sharing knowledge.",
+    studies_title: "Education",
+    studies_text: "Master's Degree in Educational Informatics",
     certs_title: "Certifications",
     certs_list: `
       <li class='list-group-item d-flex flex-column align-items-center'>
@@ -62,6 +66,8 @@ const translations = {
     download_cv: "Baixar CV",
     about_title: "Sobre mim",
     about_text: "Sou um profissional com experiência em desenvolvimento de soluções com Python, DevOps e análise de segurança. Sou apaixonado por construir ferramentas úteis, automatizar processos e compartilhar conhecimento.",
+    studies_title: "Formação Acadêmica",
+    studies_text: "Mestre em Informática Educacional",
     certs_title: "Certificações",
     certs_list: `
       <li class='list-group-item d-flex flex-column align-items-center'>
